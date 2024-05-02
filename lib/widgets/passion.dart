@@ -24,26 +24,16 @@ class MyPassion extends StatelessWidget {
             ),
             const Row(
               children: [
-                Option(name: "Chandigarh University", icon: Icons.school),
-                Option(name: "5'2\"", icon: Icons.scale),
+                Option(name: "Football", icon: Icons.business),
+                Option(name: "Guitar", icon: Icons.girl_outlined),
+                Option(name: "Gym", icon: Icons.web),
               ],
             ),
             const Row(
               children: [
-                Option(name: "Fashion esigner", icon: Icons.business),
-                Option(name: "Muslim", icon: Icons.handshake),
-              ],
-            ),
-            const Row(
-              children: [
-                Option(name: "Socially", icon: Icons.brush),
-                Option(name: "Frequently", icon: Icons.handyman),
-                Option(name: "No", icon: Icons.fire_extinguisher),
-              ],
-            ),
-            const Row(
-              children: [
-                Option(name: "Have & don't want more", icon: Icons.food_bank),
+                Option(name: "Gym", icon: Icons.sports_hockey),
+                Option(name: "Football", icon: Icons.sports_football),
+                Option(name: "Basketball", icon: Icons.sports_basketball),
               ],
             ),
           ],

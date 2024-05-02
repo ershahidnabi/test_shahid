@@ -17,6 +17,9 @@ Using same call function i used in language widget and my info widget we can use
 due to too much time gap since in last used flutter almost mor than 1 year, also i was a beginner.
 i need a little guidance i will give my best for the work and company
 */
+
+// also for styling we Icon create a constant file
+
 class MyHome extends StatefulWidget {
   const MyHome({super.key});
 
@@ -42,12 +45,16 @@ class _MyHomeState extends State<MyHome> {
         child: Column(
           children: [
             MyHeader(),
+            // for these there we can also use list
             MyInfoWidget(),
             MyLang(),
             MyPassion(),
+            // for thse cwe can call api or create a json
             BlogWidget(),
             Textbox(),
+            // again list can be used and the approach already used
             Social(),
+            // we can make a call for a button and then put styling as per needs
             Report(),
           ],
         ),

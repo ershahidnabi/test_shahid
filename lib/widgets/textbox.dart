@@ -9,22 +9,47 @@ class Textbox extends StatelessWidget {
       padding: const EdgeInsets.all(20),
       child: Container(
         padding: const EdgeInsets.all(20),
-        decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(12),
-          color: Colors.pink[100],
-        ),
-        child: const Column(
-          mainAxisAlignment: MainAxisAlignment.start,
-          crossAxisAlignment:
-              CrossAxisAlignment.start, // Align text to the left
+        child: Column(
           children: [
-            SizedBox(height: 3),
-            Text("How my school teacher describes me?"),
-            SizedBox(height: 10),
-            Text(
-              "Flutter plugin for reading and writing simple key-value pairs. Wraps NSUserDefaults on iOS and SharedPreferences on Flutter plugin for reading and writing simple key-value pairs. Wraps NSUserDefaults on iOS and SharedPreferences on Flutter plugin for reading and writing simple key-value pairs. Wraps NSUserDefaults on iOS and SharedPreferences on",
+            Container(
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(12),
+                color: Colors.pink[100],
+              ),
+              child: const Column(
+                mainAxisAlignment: MainAxisAlignment.start,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  SizedBox(height: 3),
+                  Text("How my school teacher describes me?"),
+                  SizedBox(height: 10),
+                  Text(
+                    "Flutter plugin for reading and writing simple key-value pairs. Wraps NSUserDefaults on iOS and SharedPreferences on Flutter plugin for reading and writing simple key-value pairs. Wraps NSUserDefaults on iOS and SharedPreferences on Flutter plugin for reading and writing simple key-value pairs. Wraps NSUserDefaults on iOS and SharedPreferences on",
+                  ),
+                  SizedBox(height: 3),
+                ],
+              ),
             ),
-            SizedBox(height: 3),
+            const SizedBox(height: 16),
+            Container(
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(12),
+                color: Colors.pink[100],
+              ),
+              child: const Column(
+                mainAxisAlignment: MainAxisAlignment.start,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  SizedBox(height: 3),
+                  Text("How my school teacher describes me?"),
+                  SizedBox(height: 10),
+                  Text(
+                    "Flutter plugin for reading and writing simple key-value pairs. Wraps NSUserDefaults on iOS and SharedPreferences on Flutter plugin for reading and writing simple key-value pairs. Wraps NSUserDefaults on iOS and SharedPreferences on Flutter plugin for reading and writing simple key-value pairs. Wraps NSUserDefaults on iOS and SharedPreferences on",
+                  ),
+                  SizedBox(height: 3),
+                ],
+              ),
+            ),
           ],
         ),
       ),
